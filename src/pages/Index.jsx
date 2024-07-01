@@ -1,10 +1,12 @@
+import WeatherCard from "../components/WeatherCard";
+import ForecastCard from "../components/ForecastCard";
+
 function Index() {
   return (
-    <div>
-      <h1 className="text-3xl text-center">Your Blank Canvas</h1>
-      <p className="text-center">
-        Chat with the agent to start making edits.
-      </p>
+    <div className="space-y-4">
+      <h1 className="text-3xl text-center">Weather Tracker</h1>
+      <WeatherCard />
+      <ForecastCard />
     </div>
   );
 }
